@@ -35,7 +35,7 @@ async function checkWeather(city = 'berlin') {
 
 document.addEventListener('DOMContentLoaded', function () {
     checkWeather()
-    searchInput.value = 'Berlin'
+    // searchInput.value = 'Berlin'
 })
 
 searchButton.addEventListener('click', function (e) {
